@@ -165,7 +165,7 @@ body {
 }
 
 .header {
-  background-color: black;
+  background-color: #001705;
   width: 100%;
   height: 8em;
   display: flex;
@@ -180,16 +180,12 @@ body {
   font-family: 'Passion One', Helvetica, Arial, sans-serif;
   font-weight: 500;
   font-variant: small-caps;
-  text-shadow: 
-  0.5px 0.5px 2px white;
   margin-top: 0.5em;
 }
 
 .header h2 {
   display: inline;
   font-size: 0.75em;
-  text-shadow: 
-  0.5px 0.5px 2px white;
 }
 
 .header a {
@@ -217,7 +213,7 @@ body {
   align-items: center;
   justify-content: center;
   color: black;
-  background:#d6d5aebe;
+  background:#BEDBBE;
   width: 100%;
   height: 450px;
 }
@@ -227,9 +223,6 @@ body {
   font-size: 1.5em;
   font-weight: 500;
   line-height: 2.1em;
-  text-shadow: 
-              1px 1px 10px white,
-              1px 1px 10px white;
   margin-top: 1.3em;
 }
 
@@ -237,11 +230,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #B3FEDE;
+  color: #c3e7c3;
   background: url('./img/background001.jpg');
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
+  backdrop-filter: blur(1em);
   width: 100%;
   height: 450px;
 }
@@ -260,11 +254,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #395E04;
-  text-shadow: 
-              1px 1px 10px white,
-              1px 1px 10px white;
+  color: #073507;
   background: url('./img/background002.jpg');
+  backdrop-filter: blur(1em);
+  text-shadow: 1px 1px 1px white;
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
@@ -288,7 +281,7 @@ body {
   align-items: center;
   justify-content: center;
   color: black;
-  background: #d6d5aebe;
+  background: #BEDBBE;
   width: 100%;
   height: 400px;
   padding-bottom: 3em;
@@ -299,20 +292,15 @@ body {
   font-size: 1.5em;
   font-weight: 500;
   line-height: 2.1em;
-  text-shadow: 
-              1px 1px 10px white,
-              1px 1px 10px white;
 }
 
 .footer {
-  background: black;
+  background: #001705;
   width: 100%;
   height: 5vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  text-shadow: 
-              0.5px 0.5px 2px white;
 }
 
 .footer h2 a {
